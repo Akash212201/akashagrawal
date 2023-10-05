@@ -1,0 +1,39 @@
+.main {
+    max-width: 1200px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    margin: 15px 12px 75px;
+    margin-inline: auto;
+}
+.main-content{
+    width: 70%;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #1e1e1f;
+    color: #fff;
+    position: relative;
+    top: 48px;
+    border: 1px solid #bdbdbd51;
+    min-height: 120vh;
+}
+@media(min-width:1200px){
+    .mm{
+        display: none;
+    }
+
+}
+@media(max-width: 776px){
+    .main {
+        display: block;
+        margin: 15px 12px 75px;
+        margin-inline: auto;
+    }
+    .main-content{
+        width: 92%;
+        position: static;
+        margin-inline: auto;
+    }
+}

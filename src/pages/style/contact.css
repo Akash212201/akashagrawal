@@ -1,0 +1,70 @@
+.contact{
+    padding-inline: 20px;
+}
+.map{
+    width: 100%;
+    height: 50vh;
+    margin-block: 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(141, 141, 141, 0.506);
+    overflow: hidden;
+}
+.map iframe{
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+input,
+textarea {
+    position: relative;
+    padding: 10px;
+    border-radius: 6px;
+    border: 0;
+    background-color: #2827279c;
+    resize: none;
+    color: #fff;
+    font-size: 22px;
+}
+
+input {
+    width: 48.7%;
+    margin: 15px 5px;
+}
+textarea {
+    width: 100%;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-size: 15px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.contact button{
+    border: 0;
+    outline: 0;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #ffa500;
+    background: linear-gradient( to bottom right, rgba(45, 45, 46, 0.251) 0%, rgba(27, 27, 29, 0) 100% ), rgb(32, 32, 34);
+    float: right;
+    margin-block: 20px;
+    cursor: pointer;
+}
+.contact button:hover{
+    color: #fff;
+    background: rgb(255,178,36);
+    background: linear-gradient(170deg, rgba(255,178,36,1) 0%, rgba(30,30,31,1) 32%, rgba(30,30,31,1) 64%, rgba(255,178,36,1) 100%);
+}
+@media(max-width:776px){
+    input {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .map{
+        height: 30vh;
+    }
+}
