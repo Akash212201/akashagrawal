@@ -1,0 +1,145 @@
+.sidebar{
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #1e1e1f;
+    color: #fff;
+    position: sticky;
+    top: 60px;
+    max-height: max-content;
+    height: 100%;
+    margin-bottom: 0;
+    z-index: 1;
+    border: 1px solid #bdbdbd51;
+}
+.profile{
+    padding: 30px 40px;
+    text-align: center;
+}
+.name{
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+}
+.title{
+    border: 0;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #2b2b2c;
+    color: #fff;
+    padding: 8px 0;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+.btn{
+    background-color: #2b2c2e;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 35px;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: #000000;
+    color: #fff;
+}
+.seperater{
+    margin: 20px 0;
+    border: 1px solid #383838;
+    height: 0.5px;
+}
+.profile img{
+    width: 150px;
+    height: 150px;
+}
+.profile_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.icon{
+    background-color: #2b2b2c;
+    color: #fff;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+.icon:hover{
+    background-color: #000;
+}
+.profile_item .icon img{
+    width: 70%;
+}
+.profile-info-text{
+    width: 80%;
+}
+.profile-info-text p{
+    color: #bdbdbd;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.profile_links ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 40px;
+    margin: 30px 0;
+}
+.profile_links img{
+    width: 40px;
+    height: 40px;
+}
+.mybtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 2.8px;
+    display: none;
+    
+}
+.mybtn img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+@media(max-width: 776px){
+    .sidebar{
+        position: relative;
+        top: 0;
+        margin: 50px 1rem 20px;
+        overflow: hidden;
+    }
+    .profile{
+        display: block;
+        padding: 30px 1rem;
+    }
+    .title{
+        text-align: center;
+        background-color: #2b2b2c;
+        padding: 8px 15px;
+        width: max-content;
+        margin-inline: auto;
+    }
+    .seperater{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+    .mybtn{
+        display: block;
+    }
+    .btn{
+        padding: 8px 15px;
+    }
+}

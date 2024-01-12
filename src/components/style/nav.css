@@ -1,0 +1,33 @@
+.nav-menu{
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin-top: -5px;
+    margin-right: -10px;
+    width: 50%;
+    float: right;
+    background-color: #000000b5;
+}
+.nav-menu a{
+    font-size: 20px;
+    font-weight: 200;
+}
+.menu-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.active{
+    color: #ffdb70;
+}
+@media(max-width: 776px){
+    .nav-menu{
+        padding: 1rem 10px;
+        margin-top: 0px;
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .nav-menu a{
+        font-weight: 500;
+    }
+}
