@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import {useForm, validationError} from '@formspree/react';
 import './style/contact.css';
 const Contact = () => {
