@@ -37,3 +37,8 @@
         margin-inline: auto;
     }
 }
+@media(max-width:776px){
+    .main-content{
+        min-height: 100vh;
+    }
+}

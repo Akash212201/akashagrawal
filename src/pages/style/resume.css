@@ -41,6 +41,9 @@
     margin-left: -82px;
 }
 @media(max-width:776px){
+    .resume{
+        padding-bottom: 15px;
+    }
     .resume .profile_item{
         margin-left: -45px;
     }

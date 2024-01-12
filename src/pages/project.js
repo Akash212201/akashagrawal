@@ -35,7 +35,7 @@ const Project = () => {
     ];
     return (
         <div className="skills-box">
-            <h3>Academic Projects</h3>
+            <h2>Academic Projects</h2>
             <div className="projects">
                 {
                     projectImages.map((src, index) => (

@@ -23,7 +23,7 @@ const Resume = () => {
     ];
     return (
         <div className="resume about">
-            <h1>Resume</h1>
+            <h2>Resume</h2>
             <div className="profile_item">
                 <div className="icon"><img src="./assests/images/book.svg" alt="" /></div>
                 <div className="profile-info-text">
