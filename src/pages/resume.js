@@ -6,7 +6,7 @@ const Resume = () => {
             place: "Kamla Nehru Institute of Technology, Sultanpur",
             time: "2022-2024",
             info: "Master of Computer Applications",
-            score: "8.2 CGPA"
+            score: "8.5 CGPA"
         },
         {
             place: "DS Degree College, Aligarh",
@@ -54,7 +54,7 @@ const Resume = () => {
                     <div className="info-box">
                         <h4 className="place">Web Developer Intern | ineuBytes </h4>
                         <span>June 2023 - July 2023</span>
-                        <p className="place-info">Worked as a Fronted web developer intern in web development implementations using HTML, CSS and JavaScript</p>
+                        <p className="place-info">Worked as a Frontend web developer intern in web development implementations using HTML, CSS and JavaScript</p>
                     </div>
                 </li>
             </ol>

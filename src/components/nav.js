@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import './style/nav.css'
 const Nav = () => {
-    const navItems=[
+    const navItems = [
         {
             path: "/about",
             name: "About"
@@ -27,11 +27,13 @@ const Nav = () => {
         <div className="nav-menu">
             <ul className="menu-items">
                 {
-                    navItems.map((item,index)=>(
-                        <li key={index} className="active"><NavLink to={item.path} >{item.name}</NavLink></li>
+                    navItems.map((item, index) => (
+                        <li key={index} className="active">
+                            <NavLink to={item.path} >{item.name}</NavLink>
+                        </li>
                     ))
                 }
-                </ul>
+            </ul>
         </div>
     )
 }
